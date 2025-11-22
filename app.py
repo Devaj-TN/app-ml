@@ -69,11 +69,11 @@ def main():
         "https://images.unsplash.com/photo-1518770660439-4636190af475",
         use_container_width=True
     )
-    st.sidebar.markdown("### 🔍 Laptop Price Predictor")
+    st.sidebar.markdown("###  Laptop Price Predictor")
     st.sidebar.write("Adjust the specs and see the predicted price in real-time.")
 
     # Team Members section
-    with st.sidebar.expander("👥 Team Members"):
+    with st.sidebar.expander("Team Members"):
         st.write("- Devaj TN")
         st.write("- Sahil Shahanas")
         st.write("- Razik Rahman M S")
@@ -87,14 +87,14 @@ def main():
         st.image(
             "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
             use_container_width=True,
-            caption="Work smarter with data-driven pricing 💻"
+            caption="Work smarter with data-driven pricing "
         )
 
     with col_banner2:
         st.image(
             "https://images.unsplash.com/photo-1518770660439-4636190af475",
             use_container_width=True,
-            caption="Machine Learning in action 🤖"
+            caption="Machine Learning in action "
         )
 
     st.title("💻 Laptop Price Prediction App")
@@ -110,7 +110,7 @@ def main():
     mcol1, mcol2 = st.columns([2, 1])
 
     with mcol1:
-        st.subheader("📊 Model Performance")
+        st.subheader(" Model Performance")
         st.write(f"**R² Score:** {metrics['r2']:.4f}")
         st.write(f"**MAE:** {metrics['mae']:.2f}")
         st.write(f"**RMSE:** {metrics['rmse']:.2f}")
@@ -119,11 +119,11 @@ def main():
         st.image(
             "https://images.unsplash.com/photo-1587613864521-9ef8dfe617cc",
             use_container_width=True,
-            caption="Predict before you buy 🤑"
+            caption="Predict before you buy "
         )
 
     st.markdown("---")
-    st.subheader("🧩 Enter Laptop Specifications")
+    st.subheader(" Enter Laptop Specifications")
 
     # Use original brands for dropdown
     raw_df = pd.read_csv("Laptop_price.csv")
@@ -204,11 +204,11 @@ def main():
         st.image(
             "https://images.unsplash.com/photo-1517244861144-72a5b18b77c8",
             use_container_width=True,
-            caption="Prediction generated based on your inputs ✅"
+            caption="Prediction generated based on your inputs "
         )
 
     st.markdown("---")
-    st.subheader("👀 Sample Dataset")
+    st.subheader(" Sample Dataset")
     st.dataframe(df.head())
 
 
