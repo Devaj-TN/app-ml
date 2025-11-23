@@ -61,7 +61,7 @@ def train_model(df):
 # Streamlit UI
 # -----------------------------
 def main():
-    st.set_page_config(page_title="Laptop Price Predictor", page_icon="", layout="wide")
+    st.set_page_config(page_title="Laptop Price Predictor", page_icon="https://gemini.google.com/share/7671dd60003f", layout="wide")
 
     # ========== SIDE BANNER ==========
     st.sidebar.image(
