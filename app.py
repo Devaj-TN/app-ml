@@ -65,7 +65,7 @@ def main():
 
     # ========== SIDE BANNER ==========
     st.sidebar.image(
-        "https://images.unsplash.com/photo-1518770660439-4636190af475",
+        "https://img.pikbest.com/ai/illus_our/20230427/a374ccc763d521f967cd4d9b14fd9e8c.jpg!w700wp",
         use_container_width=True
     )
     st.sidebar.markdown("###  Laptop Price Predictor")
