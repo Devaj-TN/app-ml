@@ -86,7 +86,7 @@ def main():
     with col_banner1:
         st.image(
             "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
-            use_container_width=True,
+            use_container_width=800,
             caption="Work smarter with data-driven pricing "
         )
 
