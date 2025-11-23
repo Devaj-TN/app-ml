@@ -82,10 +82,11 @@ def main():
     # ========== TOP IMAGES ==========
     col_banner1, col_banner2 = st.columns([2, 1])
 
+    # ⭐ UPDATED IMAGE HERE (ASUS Laptop)
     with col_banner1:
         st.image(
-            "https://unsplash.com/photos/black-and-silver-asus-laptop-computer-i5UV2HpITYA",
-            width=350,   # REDUCED SIZE HERE
+            "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
+            width=350,   # reduced size
             caption="Work smarter with data-driven pricing "
         )
 
