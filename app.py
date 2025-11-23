@@ -62,7 +62,7 @@ def train_model(df):
 # Streamlit UI
 # -----------------------------
 def main():
-    st.set_page_config(page_title="Laptop Price Predictor", page_icon="💻", layout="wide")
+    st.set_page_config(page_title="Laptop Price Predictor", page_icon="", layout="wide")
 
     # ========== SIDE BANNER ==========
     st.sidebar.image(
@@ -97,7 +97,7 @@ def main():
             caption="Machine Learning in action "
         )
 
-    st.title("💻 Laptop Price Prediction App")
+    st.title("Laptop Price Prediction App")
     st.write(
         "This app uses a **Linear Regression** model trained on your dataset "
         "`Laptop_price.csv` to predict laptop prices based on specifications."
@@ -184,7 +184,7 @@ def main():
             step=0.1
         )
 
-    if st.button("🔮 Predict Price"):
+    if st.button(" Predict Price"):
         brand_encoded = le_brand.transform([brand_input])[0]
 
         input_data = pd.DataFrame([{
@@ -199,7 +199,7 @@ def main():
         input_data = input_data[feature_cols]
         predicted_price = model.predict(input_data)[0]
 
-        st.success(f"💰 Estimated Laptop Price: **₹ {predicted_price:,.2f}**")
+        st.success(f" Estimated Laptop Price: **₹ {predicted_price:,.2f}**")
 
         st.image(
             "https://images.unsplash.com/photo-1517244861144-72a5b18b77c8",
