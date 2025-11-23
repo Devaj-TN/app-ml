@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -86,7 +85,7 @@ def main():
     with col_banner1:
         st.image(
             "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
-            use_container_width=250,
+            width=350,   # REDUCED SIZE HERE
             caption="Work smarter with data-driven pricing "
         )
 
