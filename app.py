@@ -117,7 +117,7 @@ def main():
 
     with mcol2:
         st.image(
-            "https://www.trentonsystems.com/hs-fs/hubfs/Machine_Learning%20.jpeg?width=4041&name=Machine_Learning%20.jpeg,
+            "https://www.trentonsystems.com/hs-fs/hubfs/Machine_Learning%20.jpeg?width=4041&name=Machine_Learning%20.jpeg,",
             use_container_width=True,
             caption="Predict before you buy "
         )
