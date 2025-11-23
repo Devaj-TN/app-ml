@@ -84,7 +84,7 @@ def main():
 
     with col_banner1:
         st.image(
-            "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+            "https://unsplash.com/photos/black-and-silver-asus-laptop-computer-i5UV2HpITYA",
             width=350,   # REDUCED SIZE HERE
             caption="Work smarter with data-driven pricing "
         )
