@@ -85,7 +85,7 @@ def main():
     # ⭐ UPDATED IMAGE HERE (ASUS Laptop)
     with col_banner1:
         st.image(
-            "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
+            "https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-table-PaKngJBDPuU",
             width=350,   # reduced size
             caption="Work smarter with data-driven pricing "
         )
