@@ -74,11 +74,11 @@ def main():
 
     # Team Members section
     with st.sidebar.expander("Team Members"):
-        st.write("- Devaj TN")
-        st.write("- Sahil Shahanas")
-        st.write("- Razik Rahman M S")
-        st.write("- George Pramod Thomas")
         st.write("- Abhivav K")
+        st.write("- Devaj TN")
+        st.write("- George Pramod Thomas")
+        st.write("- Razik Rahman M S")
+        st.write("- Sahil Shahanas")
 
     # ========== TOP IMAGES ==========
     col_banner1, col_banner2 = st.columns([2, 1])
