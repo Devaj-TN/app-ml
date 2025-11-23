@@ -97,7 +97,7 @@ def main():
             caption="Machine Learning in action "
         )
 
-    st.title("Laptop Price Prediction App")
+    st.title("Where specifications meet intelligence")
     st.write(
         "This app uses a **Linear Regression** model trained on your dataset "
         "`Laptop_price.csv` to predict laptop prices based on specifications."
