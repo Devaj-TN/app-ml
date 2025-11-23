@@ -92,7 +92,7 @@ def main():
 
     with col_banner2:
         st.image(
-            "https://images.unsplash.com/photo-1518770660439-4636190af475",
+            "https://www.trentonsystems.com/hs-fs/hubfs/Machine_Learning%20.jpeg?width=4041&name=Machine_Learning%20.jpeg",
             use_container_width=True,
             caption="Machine Learning in action "
         )
